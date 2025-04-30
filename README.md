@@ -18,7 +18,6 @@ Note: Even if I use Windows, this should work on Linux and MacOS.
 
 ## Limitations/Issues
 - On some older CM1xx chips, you may need to modify the PID to 0x013A.
-- For now only GPIO3 (most common) is supported, I'll add GPIO1 and GPIO2 later.
 
 73, F4JNT
 
@@ -43,7 +42,6 @@ Note: Même si j'utilise Windows, cela devrait marcher sur Linux et MacOS.
 
 ## Limitations/Soucis
 - Sur certaines puces CM1xx plus vieilles, il peut être nécessaire de modifier le PID à 0x013A.
-- Pour l'instant, seule la broche GPIO3 du CM108 (la plus commune) est gérée, J'ajouterai GPIO1 et GPIO2 ultérieurement.
 
 73, F4JNT
 
