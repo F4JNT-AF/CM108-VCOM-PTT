@@ -35,6 +35,6 @@ while 1:
     if not cts_status and PTT_status:
         CM108_USB.write(bytearray(b'\x00\x00\x00\x00\x00'))
         PTT_status = False
-        print("PTT ON")    
+        print("PTT OFF")    
     
     time.sleep(delay_ms/1000)
