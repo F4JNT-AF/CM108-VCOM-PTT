@@ -7,9 +7,9 @@ import sys
 #CONFIG
 GPIO = 3 #PTT control pin GPIOX , where X should be 1,2,3,4 - GPIO3 on most devices
 serial_port = "COM3"
-delay_ms = 10
+delay_ms = 10 #delay (in ms) between two serial RTS/CTS check
 CM108_VID = 0x0D8C
-CM108_PID = 0x013C #some older chips may use 0x13A
+CM108_PID = 0x013C #some older chips may use 0x013A
 
 message_PTT_start = [bytearray(b'\x00\x00\x01\x01\x00'),bytearray(b'\x00\x00\x02\x02\x00'),bytearray(b'\x00\x00\x04\x04\x00'),bytearray(b'\x00\x00\x08\x08\x00')]
 PTT_status = False
