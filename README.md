@@ -17,7 +17,7 @@ Note: Even if I use Windows, this should work on Linux and MacOS.
 4) You can now use your TX software normally.
 
 ## Limitations/Issues
-- On some older CM1xx chips, you may need to modify the PID to 0x013A.
+- Only works for CM108B, other chip versions have different PIDs which you'll need to change in the script.
 
 73, F4JNT
 
@@ -41,7 +41,7 @@ Note: Même si j'utilise Windows, cela devrait marcher sur Linux et MacOS.
 4) Vous pouvez désormais utiliser votre logiciel TX comme d'habitude.
 
 ## Limitations/Soucis
-- Sur certaines puces CM1xx plus vieilles, il peut être nécessaire de modifier le PID à 0x013A.
+- Marche uniquement pour le CM108B, les autres puces compatibles ont des PIDs differents qu'il faudra modifier dans le script.
 
 73, F4JNT
 
